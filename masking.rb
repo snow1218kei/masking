@@ -13,6 +13,7 @@ mask = Mask.new
 #id、username、emailの値を全件取得する
 mask.users_data = mysql_client.query("SELECT id, username, email FROM users;").to_a
 
+#マスキング処理の関数を実行
 mask.loop
 
 #一括で更新する
