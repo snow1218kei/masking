@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #ruby実行用の環境変数
-DB_HOST=database-3.ckvmsknhbfzt.ap-northeast-1.rds.amazonaws.com
-DB_NAME=dokugaku_engineer
-DB_PASSWORD=password
-DB_USER=de_master
+DB_HOST=database-x.ckvmsknhbfzt.ap-northeast-1.rds.amazonaws.com
+DB_NAME=xxxxx
+DB_PASSWORD=xxxxx
+DB_USER=xxxxx
 
 export DB_HOST
 export DB_NAME
