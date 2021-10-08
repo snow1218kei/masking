@@ -1,2 +1,13 @@
 .env
 etc/
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.mysql_history
+.viminfo
+.ssh/
+.rbenv/
+.local/share/gem/specs/index.rubygems.org%443/quick/Marshal.4.8/
+.cache/rubocop_cache/8eb0d7913bcb2e7dcbdbeaf2c75e668600b50d2f/6d7a3b621ca1730e04accd938619e4bdab66cfb1/
+.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/
