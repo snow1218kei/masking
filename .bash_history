@@ -1,24 +1,3 @@
-curl www.kantei.go.jp
-sudo yum update -y
-sudo yum -y install httpd
-sudo systemctl start httpd.service
-sudo systemctl status httpd.service
-sudo systemctl enable httpd.service
-sudo systemctl is-enabled httpd.service
-sudo yum -y install mysql
-mysql -h database-1.ckvmsknhbfzt.ap-northeast-1.rds.amazonaws.com -u de_master -p
-sudo yum install -y git
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-source ~/.bashrc
-exec $SHELL -l
-sudo yum -y install gcc gcc-c++ make bzip2 libyaml-devel libffi-devel zlib-devel openssl-devel readline-devel gdbm-devel ncurses-devel
-rbenv rehash
-rbenv install 3.0.2
-rbenv global 3.0.2
-rbenv rehash
 ruby -v
 gem install bundler
 bundler -v
@@ -984,3 +963,38 @@ tree -L 2
 cat masking_and_import.rb
 cat mask_processing.rb
 cat active_record.rb
+vi .gitignore
+git add .
+git push -m "want_review"
+git commit -m "want_review"
+git commit --amend
+git add .
+git commit -m "refactored"
+git status
+git push origin want_review
+git branch review
+git add .
+git commit -m "updated"
+git checkout review
+git add .
+git git commit -m "updated"
+git commit -m "updated"
+touch try.sh
+vi try.sh
+chmod +x try.sh
+./try.sh
+vi masking_and_import.rb
+./try.sh
+mysql -h database-1.ckvmsknhbfzt.ap-northeast-1.rds.amazonaws.com -u de_master -p
+add .
+git add .
+git commit -m "refactored"
+git push
+git checkout main
+rm try.sh
+tree -L 2
+git commit -m "refactored"
+git push
+git push --set-upstream origin main
+cat mask_processing.rb
+tree -L 2

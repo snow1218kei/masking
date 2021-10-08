@@ -12,7 +12,7 @@
 ~H
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :wq
-|2,0,1633588582,,"wq"
+|2,0,1633666660,,"wq"
 :s
 |2,0,1633432908,,"s"
 :w
@@ -34,230 +34,311 @@
 |3,1,36,0,1,0,1632328431,"a"
 
 # ファイルマーク:
-'0  2  3  ~/.gitignore
-|4,48,2,3,1633588582,"~/.gitignore"
-'1  3  10  ~/.gitignore
-|4,49,3,10,1633587752,"~/.gitignore"
-'2  10  84  ~/excute_all_process.rb
-|4,50,10,84,1633586080,"~/excute_all_process.rb"
-'3  1  28  ~/excute_all_process
-|4,51,1,28,1633586005,"~/excute_all_process"
-'4  29  69  ~/masking_and_import.sh
-|4,52,29,69,1633585793,"~/masking_and_import.sh"
-'5  2  23  ~/.gitignore
-|4,53,2,23,1633585295,"~/.gitignore"
-'6  3  12  ~/.gitignore
-|4,54,3,12,1633585295,"~/.gitignore"
-'7  5  12  ~/Gemfile
-|4,55,5,12,1633577919,"~/Gemfile"
-'8  1  9  ~/mask_processing.rb
-|4,56,1,9,1633575170,"~/mask_processing.rb"
-'9  10  68  ~/masking_and_import.rb
-|4,57,10,68,1633574902,"~/masking_and_import.rb"
+'0  8  42  ~/masking_and_import.rb
+|4,48,8,42,1633666660,"~/masking_and_import.rb"
+'1  24  2  ~/mask_processing.rb
+|4,49,24,2,1633666637,"~/mask_processing.rb"
+'2  1  463  ~/mask_processing.rb
+|4,50,1,463,1633663781,"~/mask_processing.rb"
+'3  18  47  ~/mask_processing.rb
+|4,51,18,47,1633663781,"~/mask_processing.rb"
+'4  1  80  ~/mask_processing.rb
+|4,52,1,80,1633663757,"~/mask_processing.rb"
+'5  1  80  ~/mask_processing.rb
+|4,53,1,80,1633663757,"~/mask_processing.rb"
+'6  3  30  ~/mask_processing.rb
+|4,54,3,30,1633663757,"~/mask_processing.rb"
+'7  3  30  ~/mask_processing.rb
+|4,55,3,30,1633663757,"~/mask_processing.rb"
+'8  1  514  ~/mask_processing.rb
+|4,56,1,514,1633663657,"~/mask_processing.rb"
+'9  1  461  ~/mask_processing.rb
+|4,57,1,461,1633663657,"~/mask_processing.rb"
 
 # ジャンプリスト (新しいものが先):
--'  2  3  ~/.gitignore
-|4,39,2,3,1633588582,"~/.gitignore"
--'  3  10  ~/.gitignore
-|4,39,3,10,1633587752,"~/.gitignore"
--'  10  84  ~/excute_all_process.rb
-|4,39,10,84,1633586080,"~/excute_all_process.rb"
--'  10  84  ~/excute_all_process.rb
-|4,39,10,84,1633586080,"~/excute_all_process.rb"
--'  10  84  ~/excute_all_process.rb
-|4,39,10,84,1633586080,"~/excute_all_process.rb"
--'  10  84  ~/excute_all_process.rb
-|4,39,10,84,1633586080,"~/excute_all_process.rb"
--'  1  0  ~/excute_all_process.rb
-|4,39,1,0,1633586062,"~/excute_all_process.rb"
--'  1  0  ~/excute_all_process.rb
-|4,39,1,0,1633586062,"~/excute_all_process.rb"
--'  1  0  ~/excute_all_process.rb
-|4,39,1,0,1633586062,"~/excute_all_process.rb"
--'  1  0  ~/excute_all_process.rb
-|4,39,1,0,1633586062,"~/excute_all_process.rb"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  1  28  ~/excute_all_process
-|4,39,1,28,1633586005,"~/excute_all_process"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  29  69  ~/masking_and_import.sh
-|4,39,29,69,1633585793,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  1  0  ~/masking_and_import.sh
-|4,39,1,0,1633585708,"~/masking_and_import.sh"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  3  12  ~/.gitignore
-|4,39,3,12,1633585295,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  1  4  ~/.gitignore
-|4,39,1,4,1633585244,"~/.gitignore"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
--'  5  12  ~/Gemfile
-|4,39,5,12,1633577919,"~/Gemfile"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633666660,"~/masking_and_import.rb"
+-'  24  2  ~/mask_processing.rb
+|4,39,24,2,1633666637,"~/mask_processing.rb"
+-'  24  2  ~/mask_processing.rb
+|4,39,24,2,1633666637,"~/mask_processing.rb"
+-'  1  463  ~/mask_processing.rb
+|4,39,1,463,1633666581,"~/mask_processing.rb"
+-'  1  463  ~/mask_processing.rb
+|4,39,1,463,1633666581,"~/mask_processing.rb"
+-'  18  47  ~/mask_processing.rb
+|4,39,18,47,1633663781,"~/mask_processing.rb"
+-'  18  47  ~/mask_processing.rb
+|4,39,18,47,1633663781,"~/mask_processing.rb"
+-'  3  30  ~/mask_processing.rb
+|4,39,3,30,1633663768,"~/mask_processing.rb"
+-'  3  30  ~/mask_processing.rb
+|4,39,3,30,1633663768,"~/mask_processing.rb"
+-'  3  30  ~/mask_processing.rb
+|4,39,3,30,1633663757,"~/mask_processing.rb"
+-'  3  30  ~/mask_processing.rb
+|4,39,3,30,1633663757,"~/mask_processing.rb"
+-'  18  45  ~/mask_processing.rb
+|4,39,18,45,1633663674,"~/mask_processing.rb"
+-'  18  45  ~/mask_processing.rb
+|4,39,18,45,1633663674,"~/mask_processing.rb"
+-'  20  45  ~/mask_processing.rb
+|4,39,20,45,1633663657,"~/mask_processing.rb"
+-'  20  45  ~/mask_processing.rb
+|4,39,20,45,1633663657,"~/mask_processing.rb"
+-'  20  45  ~/mask_processing.rb
+|4,39,20,45,1633663657,"~/mask_processing.rb"
+-'  20  45  ~/mask_processing.rb
+|4,39,20,45,1633663657,"~/mask_processing.rb"
+-'  20  46  ~/mask_processing.rb
+|4,39,20,46,1633663630,"~/mask_processing.rb"
+-'  20  46  ~/mask_processing.rb
+|4,39,20,46,1633663630,"~/mask_processing.rb"
+-'  4  0  ~/mask_processing.rb
+|4,39,4,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  4  0  ~/mask_processing.rb
+|4,39,4,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  4  0  ~/mask_processing.rb
+|4,39,4,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  4  0  ~/mask_processing.rb
+|4,39,4,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633663592,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633662981,"~/mask_processing.rb"
+-'  6  0  ~/mask_processing.rb
+|4,39,6,0,1633662981,"~/mask_processing.rb"
+-'  20  29  ~/mask_processing.rb
+|4,39,20,29,1633662924,"~/mask_processing.rb"
+-'  20  29  ~/mask_processing.rb
+|4,39,20,29,1633662924,"~/mask_processing.rb"
+-'  16  29  ~/mask_processing.rb
+|4,39,16,29,1633662673,"~/mask_processing.rb"
+-'  16  29  ~/mask_processing.rb
+|4,39,16,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  16  29  ~/mask_processing.rb
+|4,39,16,29,1633662673,"~/mask_processing.rb"
+-'  16  29  ~/mask_processing.rb
+|4,39,16,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  18  29  ~/mask_processing.rb
+|4,39,18,29,1633662673,"~/mask_processing.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
+-'  8  42  ~/masking_and_import.rb
+|4,39,8,42,1633662560,"~/masking_and_import.rb"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/masking_and_import.rb
+	*	1633666658	0
+	"	8	42
+	^	8	43
+	.	8	43
+	+	10	86
+	+	8	41
+	+	10	68
+	+	8	43
+
+> ~/mask_processing.rb
+	*	1633666634	0
+	"	24	2
+	^	24	3
+	.	24	2
+	+	1	538
+	+	1	650
+	+	1	241
+	+	1	69
+	+	1	590
+	+	1	437
+	+	1	520
+	+	1	269
+	+	1	553
+	+	1	536
+	+	1	20
+	+	1	139
+	+	1	282
+	+	1	15
+	+	1	127
+	+	1	384
+	+	1	445
+	+	1	306
+	+	1	20
+	+	1	535
+	+	1	452
+	+	1	437
+	+	1	402
+	+	1	286
+	+	1	400
+	+	1	443
+	+	1	529
+	+	1	486
+	+	1	288
+	+	1	492
+	+	1	525
+	+	1	266
+	+	1	349
+	+	1	66
+	+	1	173
+	+	1	409
+	+	1	476
+	+	1	414
+	+	1	481
+	+	1	522
+	+	1	70
+	+	1	131
+	+	1	498
+	+	1	381
+	+	1	136
+	+	1	126
+	+	1	403
+	+	1	444
+	+	1	81
+	+	1	132
+	+	1	138
+	+	1	462
+	+	1	79
+	+	1	80
+	+	1	127
+	+	1	463
+	+	24	2
+
+> ~/try.sh
+	*	1633662309	0
+	"	2	69
+	^	2	70
+	.	2	70
+	+	3	69
+	+	2	70
 
 > ~/.gitignore
 	*	1633588580	0
@@ -295,66 +376,6 @@
 	+	48	0
 	+	36	28
 	+	29	69
-
-> ~/mask_processing.rb
-	*	1633575168	0
-	"	1	9
-	^	1	10
-	.	5	9
-	+	1	538
-	+	1	650
-	+	1	241
-	+	1	69
-	+	1	590
-	+	1	437
-	+	1	520
-	+	1	269
-	+	1	553
-	+	1	536
-	+	1	20
-	+	1	139
-	+	1	282
-	+	1	15
-	+	1	127
-	+	1	384
-	+	1	445
-	+	1	306
-	+	1	20
-	+	1	535
-	+	1	452
-	+	1	437
-	+	1	402
-	+	1	286
-	+	1	400
-	+	1	443
-	+	1	529
-	+	1	486
-	+	1	288
-	+	1	492
-	+	24	2
-	+	11	15
-	+	12	52
-	+	3	16
-	+	5	46
-	+	17	44
-	+	19	12
-	+	17	49
-	+	19	17
-	+	23	53
-	+	3	20
-	+	5	4
-	+	23	29
-	+	17	16
-	+	5	9
-
-> ~/masking_and_import.rb
-	*	1633574899	0
-	"	10	68
-	^	10	69
-	.	10	68
-	+	10	86
-	+	8	41
-	+	10	68
 
 > ~/active_record.rb
 	*	1633574547	0
@@ -521,13 +542,6 @@
 > ~/actieve_record.rb
 	*	1633329490	0
 	"	1	0
-
-> ~/try.sh
-	*	1633248577	0
-	"	3	69
-	^	3	70
-	.	3	69
-	+	3	69
 
 > ~/user.rb
 	*	1633248168	0
