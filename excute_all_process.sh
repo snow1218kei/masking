@@ -1,5 +1,19 @@
 #!/bin/bash
 
+<<<<<<< HEAD:excute_all_process.sh
+=======
+#ruby実行用の環境変数
+DB_HOST=database-x.ckvmsknhbfzt.ap-northeast-1.rds.amazonaws.com
+DB_NAME=xxxxx
+DB_PASSWORD=xxxxx
+DB_USER=xxxxx
+
+export DB_HOST
+export DB_NAME
+export DB_PASSWORD
+export DB_USER
+
+>>>>>>> origin/main:masking.sh
 #スナップショットの作成
 /usr/bin/aws rds create-db-snapshot \
   --region ap-northeast-1 \
