@@ -5,7 +5,8 @@ require "yaml"
 require "erb"
 
 Dotenv.load
-yaml_file = File.read("./database.yml")
+
+yaml_file = File.read("./config/database.yml")
 config = YAML.safe_load(ERB.new(yaml_file).result)
 
 ActiveRecord::Base.establish_connection(config["db"])

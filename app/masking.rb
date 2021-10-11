@@ -1,7 +1,8 @@
 require "activerecord-import"
 
-require "./user"
-require "./mask_processing"
+require_relative "./active_record"
+require_relative "./user"
+require_relative "./mask_processing"
 
 user_list = User.all
 

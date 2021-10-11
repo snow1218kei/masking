@@ -1,10 +1,4 @@
 class MaskProcessing
-  def self.masking_user(users)
-    method_object = method(:dummy_user)
-
-    common_processing(users, method_object)
-  end
-
   def self.dummy_user(user, id)
     user["username"] = "dummy_username_#{id}"
 
@@ -14,11 +8,11 @@ class MaskProcessing
     user
   end
 
-  def self.common_processing(records, method_block)
+  def self.masking_user(records)
     records.map.with_index(1) do |record, index|
-      method_block.call(record, index)
+      dummy_user(record, index)
     end
   end
 
-  private_class_method :common_processing, :dummy_user
+  private_class_method :dummy_user
 end

@@ -26,7 +26,7 @@
 --region ap-northeast-1
 
 #dokugaku_engineerデータベースにマスキング処理
-/bin/bash -lc "/home/ec2-user/.rbenv/shims/ruby masking_and_import.rb"
+/bin/bash -lc "~/.rbenv/shims/ruby ~/app/masking.rb"
 
 #マスキングしたデータベースからダンプファイルを作成
 mysqldump --defaults-file=~/etc/.my.cnf --set-gtid-purged=OFF \
